@@ -1,0 +1,17 @@
+.trinkets {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.button {
+  padding-left: 1.0em;
+  padding-right: 1.0em;
+  font-size: 1.0rem;
+  text-transform: lowercase;
+  text-align: center
+}
+
+.b2 {
+  font-size: .89rem;
+  text-transform: none
+}

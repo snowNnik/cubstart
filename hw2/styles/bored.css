@@ -1,0 +1,30 @@
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#bored-button {
+  cursor: pointer;
+}
+
+#card {
+  display: none;
+  font-size: medium;  
+  padding: 5px 25px 5px 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  /*color: #47798f;*/
+  background: #60b985;
+  border: solid;
+  border-radius: 16px;
+  border-color: #47798f;
+  color:aliceblue;
+  /*display: inline-grid;*/
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
