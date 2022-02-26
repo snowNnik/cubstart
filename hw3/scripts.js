@@ -77,12 +77,12 @@ const getCaption = (predictions) => {
             } else {
                 lineText = entry.definition;
             }
-            if (entry.emoji) {
-                lineText += " " + entry.emoji;
-            }
+            //if (entry.emoji) {
+            //    lineText += " " + entry.emoji;
+            //}
             lineText += " #" + entity;
             const line = document.createElement("p");
-            line.innerText = lineText;
+            line.innerText = "// " + lineText + " //";
             caption.appendChild(line);
         } catch (error) {
             console.log(error);
