@@ -14,9 +14,6 @@ const detect = async (net) => {
     // Set canvas height and width
     const canvas = document.getElementById("mesh");
     // BEGIN PART 4
-    const img = document.getElementById("img")
-    const imgWidth = img.width;
-    const imgHeight = img.height;
     canvas.width = imgWidth;
     canvas.height = imgHeight;
     // END PART 4
@@ -97,7 +94,7 @@ const getCaption = (predictions) => {
 // BEGIN PART 8
 // "input" is current undefined, since it hasn't been initialized yet.
 // Initialize it here to the appropriate element on the HTML document.
-const input = document.getElementById("card");
+const input = document.getElementById("img-upload");
 input.addEventListener("change", (event) => {
     const caption = document.getElementById("caption");
     caption.replaceChildren();
